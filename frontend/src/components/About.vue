@@ -10,5 +10,5 @@
 
 
 <template>
-    <h1 class="font-bold text-2xl">About {{name}}</h1>
+    <p class="font-bold text-2xl">About {{name}}</p>
 </template>
