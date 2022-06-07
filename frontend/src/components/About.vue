@@ -10,5 +10,12 @@
 
 
 <template>
-    <p class="font-bold text-2xl">About {{name}}</p>
+    <p class="font-bold text-2xl">The new store value : {{name}}</p>
 </template>
+
+
+<style>
+p{
+    font-family: 'Merienda', cursive;  
+}
+</style>

@@ -19,13 +19,17 @@
 </script>
 
 <template>
-    <div>
-        <h1 class="display-1">HOME</h1>
-        <p class="">Name in store is : {{name}}</p>
-    </div>
-    <div>
-        <input type="text" class="p-2 mr-4 border border-gray rounded-600" v-model="newName"/>
-        <button @click="saveName" class="btn btn-primary">Submit</button>
+    <div class="row">
+        <div class="offset-md-5">
+            <div>
+                <h1 class="display-1">HOME</h1>
+                <p class="">Name in store is : {{name}}</p>
+            </div>
+            <div>
+                <input type="text" class="p-2 mr-4 border border-gray rounded-600" v-model="newName"/>
+                <button @click="saveName" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
     </div>
 </template>
 
